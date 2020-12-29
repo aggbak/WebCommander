@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">InputClient</string>
+    <string name="btntxt_FirstName">First</string>
+    <string name="btntxt_LastName">Last</string>
+    <string name="btntxt_Address">Address</string>
+    <string name="btntxt_PhoneNumber">Phone #</string>
+    <string name="btntxt_CityName">City</string>
+    <string name="btntxt_ClearName">Clear</string>
+    <string name="btntxt_Enter">Enter</string>
+    <string name="btntxt_Email">Email</string>
+    <string name="btntxt_Password">Password</string>
+    <string name="btntxt_SelectAll">Sel All</string>
+    <string name="btntxt_BackSpace">Back</string>
+    <string name="btntxt_Paste">Paste</string>
+    <string name="btntxt_Space">Space</string>
+    <string name="btntxt_Gmail">Gmail</string>
+    <string name="btntxt_Zip">Zip</string>
+    <string name="btntxt_CloseWindow">Close Win</string>
+    <string name="btntxt_CloseTab">Close Tab</string>
+    <string name="btntxt_RITEmail">RIT Email</string>
+    <string name="btntxt_State">State</string>
+    <string name="btntxt_Backtab">← T</string>
+    <string name="btntxt_Tab">T →</string>
+    <string name="connect_button">Connect</string>
+
+</resources>

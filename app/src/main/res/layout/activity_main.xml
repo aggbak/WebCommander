@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/buttonTable"
+    tools:context=".MainActivity">
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendFirstName"
+            android:text="@string/btntxt_FirstName"
+             />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="sendLastName"
+            android:text="@string/btntxt_LastName"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendAddress"
+            android:text="@string/btntxt_Address"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendCity"
+            android:text="@string/btntxt_CityName" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_Zip"
+            android:id="@+id/button16"
+            android:onClick="sendZip"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_State"
+            android:id="@+id/button18"
+            android:onClick="sendState"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_RITEmail"
+            android:id="@+id/button17"
+            android:onClick="sendRITEmail"
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendNewline"
+            android:text="@string/btntxt_Enter"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_SelectAll"
+            android:onClick="sendSelectAll"
+             />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_BackSpace"
+            android:onClick="sendBackSpace"
+            />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_Space"
+            android:onClick="sendSpace"
+            />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_CloseTab"
+            android:onClick="sendCloseTab"
+            />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_CloseWindow"
+            android:onClick="sendCloseWindow"
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_Email"
+            android:onClick="sendEmail"
+            />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_Password"
+            android:onClick="sendPassword" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_Gmail"
+            android:onClick="sendOpenGmail" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/buttonPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_PhoneNumber"
+            android:onClick="sendPhoneNumber" />
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/buttonBacktab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_Backtab"
+            android:onClick="sendBacktab"
+            />
+
+        <TextView
+            android:text=""
+            android:layout_marginLeft="1dp"
+            android:layout_marginStart="1dp" />
+
+        <Button
+            android:id="@+id/buttonTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btntxt_Tab"
+            android:onClick="sendTab"
+            />
+
+    </TableRow>
+
+
+</TableLayout>
